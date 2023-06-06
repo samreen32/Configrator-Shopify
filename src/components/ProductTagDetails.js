@@ -45,11 +45,11 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "50%",
-        lg: "65%",
+        lg: "57%",
       },
       bottom: {
         sm: "36%",
-        lg: "35%",
+        lg: "33%",
       },
     },
     part: {
@@ -68,11 +68,11 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "35%",
-        lg: "55%",
+        lg: "52%",
       },
       bottom: {
         sm: "2%",
-        lg: "5%",
+        lg: "1%",
       },
     },
     part: {
@@ -90,7 +90,7 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "70%",
-        lg: "76%",
+        lg: "63%",
       },
       bottom: {
         sm: "48%",
@@ -113,11 +113,11 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "25%",
-        lg: "48%",
+        lg: "49%",
       },
       bottom: {
         sm: "10%",
-        lg: "12%",
+        lg: "10%",
       },
     },
     part: {
@@ -135,7 +135,7 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "75%",
-        lg: "76%",
+        lg: "65%",
       },
       bottom: {
         sm: "68%",
@@ -158,11 +158,11 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "33%",
-        lg: "55%",
+        lg: "52.5%",
       },
       bottom: {
         sm: "40%",
-        lg: "40%",
+        lg: "38%",
       },
     },
     part: {
@@ -181,7 +181,7 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "41%",
-        lg: "58%",
+        lg: "54%",
       },
       bottom: {
         sm: "75%",
@@ -204,7 +204,7 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "38%",
-        lg: "56%",
+        lg: "53.5%",
       },
       bottom: {
         sm: "60%",
@@ -226,7 +226,7 @@ const ProductTagDetails = [
     position: {
       left: {
         sm: "51%",
-        lg: "65%",
+        lg: "58%",
       },
       bottom: {
         sm: "12%",

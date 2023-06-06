@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import { ChakraProvider, useMediaQuery } from '@chakra-ui/react';
+import React, { useState } from "react";
+import { ChakraProvider, useMediaQuery } from "@chakra-ui/react";
 import { Box, Image, Stack, Container } from "@chakra-ui/react";
 import Product_White_Image from "../src/assets/Products/product_white.png";
 import Product_White_Image_Lg from "../src/assets/Products/product_white_lg.jpg";
 import Product_Black_Image from "../src/assets/Products/product_black.png";
 import Product_Black_Image_Lg from "../src/assets/Products/product_black_lg.jpg";
-import theme from './theme';
-import ProductToolTip from './components/ProductToolTip';
-import ProductTagDetails from './components/ProductTagDetails';
+import theme from "./theme";
+import ProductToolTip from "./components/ProductToolTip";
+import ProductTagDetails from "./components/ProductTagDetails";
 
 function App() {
   const [selectedTag, setSelectedTag] = useState(1);
@@ -37,7 +37,6 @@ function App() {
             onClick={() => setSelectedTag(0)}
             height={isLargerThan1280 ? "100vh" : "100%"}
           >
-
             <Container
               width={"100%"}
               display={"flex"}
@@ -56,8 +55,8 @@ function App() {
                       ? Product_White_Image_Lg
                       : Product_Black_Image_Lg
                     : product !== "dark"
-                      ? Product_White_Image
-                      : Product_Black_Image
+                    ? Product_White_Image
+                    : Product_Black_Image
                 }
                 p={0}
                 height={isLargerThan1280 ? "100vh" : "100%"}
@@ -84,7 +83,6 @@ function App() {
                   );
                 })}
 
-
                 {/* Showing tooltip when screen size is larger */}
                 {isLargerThan1280 &&
                   ProductTagDetails.map((tag) => {
@@ -104,20 +102,20 @@ function App() {
                     }
                   })}
 
-
                 {/* Showing options to choose between black and white */}
                 <div
                   className="flex space-x-4 pointer-events-auto position-absolute bottom-0 end-0 pe-2 pb-2"
-                  style={{ display: 'flex'}}
+                  style={{ display: "flex" }}
                 >
                   {/* BLACK CIRCLE */}
                   <div
-                    className='mx-2'
+                    className="mx-2"
                     style={{
                       height: "40px",
                       width: "40px",
                       borderRadius: "50%",
-                      background: product !== "dark" ? "transparent" : "#F2F2F2",
+                      background:
+                        product !== "dark" ? "transparent" : "#F2F2F2",
                       border: product === "dark" ? "2px solid #FFF" : "none",
                       cursor: "pointer",
                       display: "flex",
@@ -143,8 +141,10 @@ function App() {
                       height: "40px",
                       width: "40px",
                       borderRadius: "50%",
-                      background: product !== "light" ? "#F2F2F2" : "transparent",
-                      border: product === "light" ? "2px solid #262626" : "none",
+                      background:
+                        product !== "light" ? "#F2F2F2" : "transparent",
+                      border:
+                        product === "light" ? "2px solid #262626" : "none",
                       cursor: "pointer",
                       display: "flex",
                       justifyContent: "center",
@@ -163,7 +163,6 @@ function App() {
                     ></div>
                   </div>
                 </div>
-
               </Box>
             </Container>
 
@@ -172,7 +171,6 @@ function App() {
               <Box
                 width={"100%"}
                 bg={"#eeedea"}
-
                 pb={["20px", "20px"]}
                 display={"grid"}
                 mt={"0px !important"}
@@ -193,16 +191,11 @@ function App() {
                 })}
               </Box>
             )}
-
-
           </Stack>
         </Box>
-
       </ChakraProvider>
-
-
     </>
-  )
+  );
 }
 
 export default App;
