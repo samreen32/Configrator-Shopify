@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Configrator-Shopify/static/css/main.4e93dbee.css",
+    "main.js": "/Configrator-Shopify/static/js/main.6cd42f4e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Configrator-Shopify/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Part2-1.png": "/Configrator-Shopify/static/media/Part2-1.5d80445023b69865d9d4.png",
+    "static/media/product_black_lg.jpg": "/Configrator-Shopify/static/media/product_black_lg.b7b98263eaa4de533eef.jpg",
+    "static/media/product_white_lg.jpg": "/Configrator-Shopify/static/media/product_white_lg.c9e8c503453d8af34df7.jpg",
+    "static/media/product_black.png": "/Configrator-Shopify/static/media/product_black.8ccd2b3648eeab977704.png",
+    "static/media/Part9-1.png": "/Configrator-Shopify/static/media/Part9-1.c096bf75fcb5eb6d945e.png",
+    "static/media/product_white.png": "/Configrator-Shopify/static/media/product_white.9ad71169a39221b65747.png",
+    "static/media/Part4-1.png": "/Configrator-Shopify/static/media/Part4-1.b388c51a544e66f4f2b6.png",
+    "static/media/Part1-1.png": "/Configrator-Shopify/static/media/Part1-1.a66b45af92c74ac3c575.png",
+    "static/media/Part7-1.png": "/Configrator-Shopify/static/media/Part7-1.67566b5f37a90f9091cb.png",
+    "static/media/Part6-1.png": "/Configrator-Shopify/static/media/Part6-1.78781a859a659ffb07d0.png",
+    "static/media/Part8-1.png": "/Configrator-Shopify/static/media/Part8-1.d06ad81df3e7ca2bc826.png",
+    "static/media/Part5-1.png": "/Configrator-Shopify/static/media/Part5-1.a6833598aed3873ab0ff.png",
+    "static/media/HelveticaNeueLTCom-Roman.ttf": "/Configrator-Shopify/static/media/HelveticaNeueLTCom-Roman.9ed94f87446b083e612d.ttf",
+    "static/media/Part3-1.jpg": "/Configrator-Shopify/static/media/Part3-1.c4eb8b06a9359fdac78c.jpg",
+    "index.html": "/Configrator-Shopify/index.html",
+    "main.4e93dbee.css.map": "/Configrator-Shopify/static/css/main.4e93dbee.css.map",
+    "main.6cd42f4e.js.map": "/Configrator-Shopify/static/js/main.6cd42f4e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Configrator-Shopify/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e93dbee.css",
+    "static/js/main.6cd42f4e.js"
+  ]
+}
