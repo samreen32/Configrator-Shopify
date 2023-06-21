@@ -1,5 +1,6 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 
+//This file styles the tooltip
 export default function ProductToolTip({
   image,
   title,
@@ -12,7 +13,7 @@ export default function ProductToolTip({
   return (
     // Tooltip that shows tips when clicking on numbers.
     <Flex
-      width={!isDesktop ? "90%" : "300px"}
+      width={!isDesktop ? "90%" : "300px"} //styling the width of tooltip when screen is smaller
       maxW="370px"
       left={left}
       bottom={bottom}
@@ -32,6 +33,7 @@ export default function ProductToolTip({
       _before={
         !isDesktop
           ? {
+              //styling the cornor of tooltip when screen is smaller
               content: '""',
               position: "absolute",
               bottom: "100%",
@@ -45,6 +47,7 @@ export default function ProductToolTip({
             }
           : placement !== "top"
           ? {
+              //styling the cornor of tooltip when screen is larger
               content: '""',
               position: "absolute",
               bottom: "50%",
@@ -58,6 +61,7 @@ export default function ProductToolTip({
               borderLeft: "10px solid white",
             }
           : {
+              //special styling of cornor of tooltip when selecting tag 2
               content: '""',
               position: "absolute",
               bottom: "0%",
@@ -72,12 +76,12 @@ export default function ProductToolTip({
             }
       }
     >
-      {/* Showing img when screen is small */}
+      {/* Showing img in tooltip */}
       <Box width={"40%"}>
         <img src={image} className="col-12 h-100" loading="lazy" alt="image" />
       </Box>
 
-      {/* Showing details to screen */}
+      {/* Showing details on tooltip */}
       <Box
         width={"60%"}
         color="#262626"
@@ -88,7 +92,7 @@ export default function ProductToolTip({
           {title}
         </Text>
         <Text
-          fontSize={!isDesktop ? "13px" : "12px"}
+          fontSize={!isDesktop ? "11px" : "12px"}
           dangerouslySetInnerHTML={{ __html: description }}
         ></Text>
       </Box>
