@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Configrator-Shopify/static/css/main.4e93dbee.css",
-    "main.js": "/Configrator-Shopify/static/js/main.6cd42f4e.js",
+    "main.css": "/Configrator-Shopify/static/css/main.5d925326.css",
+    "main.js": "/Configrator-Shopify/static/js/main.c82d6552.js",
     "static/js/787.28cb0dcd.chunk.js": "/Configrator-Shopify/static/js/787.28cb0dcd.chunk.js",
     "static/media/Part2-1.png": "/Configrator-Shopify/static/media/Part2-1.5d80445023b69865d9d4.png",
     "static/media/product_black_lg.jpg": "/Configrator-Shopify/static/media/product_black_lg.b7b98263eaa4de533eef.jpg",
@@ -18,12 +18,12 @@
     "static/media/HelveticaNeueLTCom-Roman.ttf": "/Configrator-Shopify/static/media/HelveticaNeueLTCom-Roman.9ed94f87446b083e612d.ttf",
     "static/media/Part3-1.jpg": "/Configrator-Shopify/static/media/Part3-1.c4eb8b06a9359fdac78c.jpg",
     "index.html": "/Configrator-Shopify/index.html",
-    "main.4e93dbee.css.map": "/Configrator-Shopify/static/css/main.4e93dbee.css.map",
-    "main.6cd42f4e.js.map": "/Configrator-Shopify/static/js/main.6cd42f4e.js.map",
+    "main.5d925326.css.map": "/Configrator-Shopify/static/css/main.5d925326.css.map",
+    "main.c82d6552.js.map": "/Configrator-Shopify/static/js/main.c82d6552.js.map",
     "787.28cb0dcd.chunk.js.map": "/Configrator-Shopify/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e93dbee.css",
-    "static/js/main.6cd42f4e.js"
+    "static/css/main.5d925326.css",
+    "static/js/main.c82d6552.js"
   ]
 }
