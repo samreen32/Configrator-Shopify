@@ -98,6 +98,14 @@ function App() {
     "(min-width: 1701px) and (max-width: 1750px)"
   );
 
+  //Styling for black and white circle
+  const [isScreen370px] = useMediaQuery("(max-width: 370px)");
+  const [isScreen270px] = useMediaQuery("(max-width: 270px)");
+  const [isScreen240px] = useMediaQuery("(max-width: 240px)");
+  const [isScreenLargerThan240px] = useMediaQuery(
+    "(min-width: 241px) and (max-width: 340px)"
+  );
+
   const [product, setProduct] = useState("dark");
   const handleSelect = (e, id) => {
     e.stopPropagation();
@@ -329,7 +337,21 @@ function App() {
                 {/* Showing options to choose between black and white */}
                 <div
                   className="flex space-x-4 pointer-events-auto position-absolute bottom-0 end-0 pe-2 pb-2"
-                  style={{ display: "flex", marginRight: "7%" }}
+                  style={{
+                    display: "flex",
+                    marginRight: isScreen240px
+                      ? "-2%"
+                      : isScreenLargerThan240px
+                      ? "1%"
+                      : "7%",
+                    transform: isScreen240px
+                      ? "scale(0.5)"
+                      : isScreen270px
+                      ? "scale(0.6)"
+                      : isScreen370px
+                      ? "scale(0.8)"
+                      : "none",
+                  }}
                 >
                   {/* BLACK CIRCLE */}
                   <div

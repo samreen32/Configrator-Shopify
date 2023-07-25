@@ -1,5 +1,6 @@
 import { Box, Image, useMediaQuery } from "@chakra-ui/react";
 
+// File for tags styling
 export default function ProductTagContainer({
   id,
   image,
@@ -9,6 +10,8 @@ export default function ProductTagContainer({
   isDesktop,
   onClick,
 }) {
+  const [isSmallerScreen] = useMediaQuery("(max-width: 460px)");
+  const [isWidthScreen] = useMediaQuery("(max-width: 270px)");
   const [isXSmallerScreen] = useMediaQuery(
     "(min-width: 650px) and (max-width: 670px)"
   ); //after smaller screen as when image changes..aka xs
@@ -93,6 +96,9 @@ export default function ProductTagContainer({
   const [isXXXScreen] = useMediaQuery(
     "(min-width: 1701px) and (max-width: 1750px)"
   );
+
+  const tagWidth = isSmallerScreen ? "20px" : "30px";
+  const isWidth = isWidthScreen ? "15px" : "20px";
 
   const getPosition = () => {
     if (isDesktop) {
@@ -263,6 +269,16 @@ export default function ProductTagContainer({
 
   const { left, bottom } = getPosition();
 
+  const getTagWidth = () => {
+    if (isWidthScreen) {
+      return isWidth;
+    } else if (isSmallerScreen) {
+      return tagWidth;
+    } else {
+      return "30px";
+    }
+  };
+
   return (
     <Box width={"auto"} height={"auto"} zIndex={999999}>
       <Image
@@ -273,7 +289,8 @@ export default function ProductTagContainer({
         scale={isSelected ? 3 : 1}
         bottom={bottom}
         src={isSelected ? imageDark : image}
-        width={"30px"}
+        width={getTagWidth()}
+        // width={tagWidth}
         alt={"Segun Adebayo"}
         zIndex={1}
       />
